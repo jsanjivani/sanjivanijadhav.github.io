@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanjivani Jadhav | Professional Anchor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f9f9f9;
+    color:#222;
+    line-height:1.6;
+}
+
+/* HERO */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('stage.jpg') center/cover;
+    color:#fff;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:18px;
+    margin:15px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#c9a24d;
+    color:#000;
+    padding:12px 28px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#b18d3e;
+}
+
+/* SECTION */
+
+.section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:32px;
+}
+
+/* FEATURES */
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.feature{
+    background:#fff;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+
+.about{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.about img{
+    width:280px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* SERVICES */
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.service{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 0 12px rgba(0,0,0,0.2);
+}
+
+/* TESTIMONIALS */
+
+.testimonial{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+
+.cta{
+    background:#1c1c3c;
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+}
+
+/* CONTACT */
+
+.contact{
+    background:#fff;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    max-width:600px;
+    margin:auto;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:17px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    color:#fff;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+    <h1>🎤 Sanjivani Jadhav</h1>
+    <p>Professional Multilingual Event Anchor</p>
+    <p>Hindi | English | Marathi</p>
+
+    <a href="https://wa.me/919325948115" class="btn">Book on WhatsApp</a>
+    <a href="tel:9325948115" class="btn">Call Now</a>
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="section">
+    <h2>Why Choose Me?</h2>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>🎯 Versatile Host</h3>
+            <p>Weddings, Corporate, Parties & Live Shows</p>
+        </div>
+
+        <div class="feature">
+            <h3>🌍 Multilingual</h3>
+            <p>Hindi, English & Marathi</p>
+        </div>
+
+        <div class="feature">
+            <h3>✨ Professional</h3>
+            <p>Confident, Engaging & Well-Presented</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="section">
+    <h2>About Me</h2>
+
+    <div class="about">
+
+        <img src="red-dress.jpg" alt="Sanjivani Jadhav">
+
+        <div>
+            <p>
+                Hi, I’m <b>Sanjivani Jadhav</b>, a professional event anchor dedicated to making every event energetic, elegant, and unforgettable.
+            </p>
+
+            <p>
+                With strong stage presence and multilingual fluency, I ensure smooth coordination and audience engagement.
+            </p>
+
+            <p>
+                Your event deserves excellence — and I deliver it with confidence and passion.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="section">
+    <h2>My Services</h2>
+
+    <div class="services">
+
+        <div class="service">💍 Wedding Anchoring</div>
+        <div class="service">🏢 Corporate Events</div>
+        <div class="service">🎉 Private Parties</div>
+        <div class="service">🎤 Stage Hosting</div>
+
+    </div>
+</section>
+
+
+<!-- GALLERY -->
+
+<section class="section">
+    <h2>Event Gallery</h2>
+
+    <div class="gallery">
+
+        <img src="stage.jpg" alt="On Stage">
+        <img src="red-dress.jpg" alt="Professional Shoot">
+
+    </div>
+
+</section>
+
+
+<!-- TESTIMONIALS -->
+
+<section class="section">
+    <h2>Client Feedback</h2>
+
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐ <br>
+        "Sanjivani made our wedding so lively and well-organized."
+    </div>
+
+    <div class="testimonial">
+        ⭐⭐⭐⭐⭐ <br>
+        "Very professional and confident host. Highly recommended!"
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+    <h2>Ready to Make Your Event Memorable?</h2>
+    <p>Let’s create an unforgettable experience together.</p>
+
+    <a href="https://wa.me/919325948115" class="btn">Book Now</a>
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section">
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+
+        <p>📞 Phone: <b>9325948115</b></p>
+        <p>💬 WhatsApp: <a href="https://wa.me/919325948115">Click to Chat</a></p>
+        <p>📧 Email: jsanjivani02@gmail.com</p>
+        <p>📍 Maharashtra, India</p>
+
+    </div>
+</section>
+
+
+<footer>
+    © 2026 Sanjivani Jadhav | Professional Anchor
+</footer>
+
+</body>
+</html>
